@@ -58,11 +58,12 @@
 }
 
 .mainfeatures .perfeature {
-  padding: 25px;
-  border-radius: 40px;
-  color: #fff;
-  margin: 20px 0;
-  background: #ffffff14;
+    border: 1px solid hsla(0, 0%, 100%, .3);
+    border-radius: 15px;
+    padding: 25px 0;
+    position: relative;
+    margin: 0 !important;
+    z-index: 1;
 }
 
 .mainfeatures .perfeature .text {
@@ -194,13 +195,6 @@ border-radius: 100px;
   border: 2px solid #00bdc9 !important;
 }
 
-.mainfeatures .perfeature {
-  padding: 25px;
-  border-radius: 40px;
-  color: #fff;
-  margin: 20px 0;
-  background: #ffffff14;
-}
 
 .mainproducts .perproduct .price {
   font-size: 18px;
@@ -219,4 +213,8 @@ border-radius: 100px;
 
 .mainproducts .perproduct .details .rating {
 display: none;
+}
+
+.mainfeatures .sep {
+    height: 0;
 }
