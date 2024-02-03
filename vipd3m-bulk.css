@@ -212,6 +212,7 @@ border-radius: 100px;
   display: block;
   top: 0;
   left: 0;
+  background-image:linear-gradient(to right,#d14985,#b44a8d,#964b8f,#764b8c,#584983)
   border-radius: 0;
   padding: 2px;
 }
