@@ -1,15 +1,130 @@
+.footer.verticalFooterPattern .perrow .paymentMethodsCon {
+    padding-top: 12px;
+    background: white;
+    border-radius: 21px
+}
+
+.content.mainshowproduct .contentnav {
+    display: none!important
+}
+
+.mainproducts .title {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,#ED639E 0%,#134982 29%,#00bdc9 67%,#D14985 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear infinite;
+    display: inline-block;
+    font-weight: 800
+}
+
+.mainfeatures .mainFeaturesTexts {
+    text-align: center
+}
+
+.mainFeaturesTexts h2 {
+    color: var(--turquoise);
+    font-size: 2rem
+}
+
+.mainFeaturesTexts p {
+    color: lightgray
+}
+
+.mainproducts .mainvotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%
+}
+
+.content.mainshowproduct .rshowcon .left .slider .peritem {
+    background-size: cover!important
+}
+
+.mainproducts .mainvotes .rvotes {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-top: -50px
+}
+
+.mainfeatures .perfeature {
+  padding: 25px;
+  border-radius: 40px;
+  color: #fff;
+  margin: 20px 0;
+  background: #ffffff14;
+}
+
+.mainfeatures .perfeature .text {
+    color: #00bdc9;
+    font-weight: bold;
+}
+
+@media (min-width: 250px) and (max-width:999px) {
+    .header .nav {
+        background-image:linear-gradient(to right,#d14985,#b44a8d,#964b8f,#764b8c,#584983)
+    }
+}
+
+@media (min-width: 320px) and (max-width:520px) {
+    .mainproducts .rpcon .perproduct:not(.persearchproduct) {
+        margin:10px 0;
+        width: calc(100% / 2 - 9px)
+    }
+}
+.mainproducts .perproduct .img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 40px;
+  background-image: url('https://i.postimg.cc/jqBWKLRb/Animation-1706932550784.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mainproducts .title {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,#ED639E 0%,#134982 29%,#00bdc9 67%,#D14985 100%);
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear infinite;
+    font-size: 1.8rem!important;
+    text-align: center
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center
+    }
+}
+
 
 .mainproducts .smallBanners a:nth-child(1) img {
-background: linear-gradient(90deg, rgb(73 137 175) 0%, rgb(2 45 71) 100%) !important;
-content: url(https://i.postimg.cc/2S1VPj7L/icons8-netflix.gif) !important;
+content: url(https://i.postimg.cc/KvZXHhWy/Animation-1706934244898.gif) !important;
 background-repeat: no-repeat;
 background-position: center;
 background-size: 0%;
-width: 100px;
-border-radius: 50px;
+width: 120px;
+border-radius: 100px;
 }
 .mainproducts .smallBanners a:nth-child(1)::after {
-  content: "نتفليكس";
+  content: "Netflix";
   display: block;
   text-align: center;
   font-size: 1.2em;
@@ -20,16 +135,15 @@ border-radius: 50px;
 
 
 .mainproducts .smallBanners a:nth-child(2) img {
-  background: linear-gradient(90deg, rgb(73 137 175) 0%, rgb(2 45 71) 100%) !important;
-  content: url(https://i.postimg.cc/2S1VPj7L/icons8-netflix.gif) !important;
+  content: url(https://i.postimg.cc/bw0dxh4S/icons8-pubg-96.png) !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 0%;
-  width: 100px;
-  border-radius: 50px;
+width: 120px;
+border-radius: 100px;
   }
   .mainproducts .smallBanners a:nth-child(2)::after {
-    content: "نتفليكس";
+    content: "BUBG Mobile";
     display: block;
     text-align: center;
     font-size: 1.2em;
@@ -40,16 +154,33 @@ border-radius: 50px;
 
   
 .mainproducts .smallBanners a:nth-child(3) img {
-  background: linear-gradient(90deg, rgb(73 137 175) 0%, rgb(2 45 71) 100%) !important;
-  content: url(https://i.postimg.cc/2S1VPj7L/icons8-netflix.gif) !important;
+  content: url(https://i.postimg.cc/Mp45k198/Animation-1706935376711.gif) !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 0%;
-  width: 100px;
-  border-radius: 50px;
+width: 120px;
+border-radius: 100px;
   }
   .mainproducts .smallBanners a:nth-child(3)::after {
-    content: "نتفليكس";
+    content: "YouTube";
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    color: #a9a9a9;
+    padding-top: 21px;
+    font-weight: 700;
+  }
+
+.mainproducts .smallBanners a:nth-child(4) img {
+  content: url(https://i.postimg.cc/vHCxbXwX/Animation-1706935487619.gif) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0%;
+width: 120px;
+border-radius: 100px;
+  }
+  .mainproducts .smallBanners a:nth-child(4)::after {
+    content: "Gmail";
     display: block;
     text-align: center;
     font-size: 1.2em;
@@ -60,7 +191,7 @@ border-radius: 50px;
 
 
 .mainproducts .smallBanners a img {
-  border: 1px solid #00bdc9 !important;
+  border: 2px solid #00bdc9 !important;
 }
 
 .mainfeatures .perfeature {
@@ -69,4 +200,22 @@ border-radius: 50px;
   color: #fff;
   margin: 20px 0;
   background: #ffffff14;
+}
+
+.mainproducts .perproduct .price {
+  font-size: 18px;
+  margin-top: 0;
+  font-weight: bold;
+}
+.mainproducts .perproduct .mainprice {
+  position: inherit;
+  display: block;
+  top: 0;
+  left: 0;
+  border-radius: 0;
+  padding: 2px;
+}
+
+.mainproducts .perproduct .details .rating {
+display: none;
 }
