@@ -62,3 +62,11 @@ border-radius: 50px;
 .mainproducts .smallBanners a img {
   border: 1px solid #00bdc9 !important;
 }
+
+.mainfeatures .perfeature {
+  padding: 25px;
+  border-radius: 40px;
+  color: #fff;
+  margin: 20px 0;
+  background: #ffffff14;
+}
