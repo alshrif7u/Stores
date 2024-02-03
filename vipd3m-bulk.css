@@ -1,6 +1,5 @@
 
-.mainproducts .smallBanners a:nth-child(1) img
-{
+.mainproducts .smallBanners a:nth-child(1) img {
 background: linear-gradient(90deg, rgb(73 137 175) 0%, rgb(2 45 71) 100%) !important;
 content: url(https://i.postimg.cc/2S1VPj7L/icons8-netflix.gif) !important;
 background-repeat: no-repeat;
@@ -10,10 +9,56 @@ width: 100px;
 border-radius: 50px;
 }
 .mainproducts .smallBanners a:nth-child(1)::after {
-  content: "Netflix"; 
+  content: "نتفليكس";
   display: block;
   text-align: center;
+  font-size: 1.2em;
   color: #00bdc9;
-  padding-top: 8px;
+  padding-top: 21px;
   font-weight: 700;
+}
+
+
+.mainproducts .smallBanners a:nth-child(2) img {
+  background: linear-gradient(90deg, rgb(73 137 175) 0%, rgb(2 45 71) 100%) !important;
+  content: url(https://i.postimg.cc/2S1VPj7L/icons8-netflix.gif) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0%;
+  width: 100px;
+  border-radius: 50px;
+  }
+  .mainproducts .smallBanners a:nth-child(2)::after {
+    content: "نتفليكس";
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    color: #00bdc9;
+    padding-top: 21px;
+    font-weight: 700;
+  }
+
+  
+.mainproducts .smallBanners a:nth-child(3) img {
+  background: linear-gradient(90deg, rgb(73 137 175) 0%, rgb(2 45 71) 100%) !important;
+  content: url(https://i.postimg.cc/2S1VPj7L/icons8-netflix.gif) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0%;
+  width: 100px;
+  border-radius: 50px;
+  }
+  .mainproducts .smallBanners a:nth-child(3)::after {
+    content: "نتفليكس";
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    color: #00bdc9;
+    padding-top: 21px;
+    font-weight: 700;
+  }
+
+
+.mainproducts .smallBanners a img {
+  border: solid 3px #ca4a88
 }
