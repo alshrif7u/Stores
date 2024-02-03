@@ -13,7 +13,7 @@ border-radius: 50px;
   display: block;
   text-align: center;
   font-size: 1.2em;
-  color: #00bdc9;
+  color: #a9a9a9;
   padding-top: 21px;
   font-weight: 700;
 }
@@ -33,7 +33,7 @@ border-radius: 50px;
     display: block;
     text-align: center;
     font-size: 1.2em;
-    color: #00bdc9;
+    color: #a9a9a9;
     padding-top: 21px;
     font-weight: 700;
   }
@@ -53,12 +53,12 @@ border-radius: 50px;
     display: block;
     text-align: center;
     font-size: 1.2em;
-    color: #00bdc9;
+    color: #a9a9a9;
     padding-top: 21px;
     font-weight: 700;
   }
 
 
 .mainproducts .smallBanners a img {
-  border: solid 3px #ca4a88
+  border: 1px solid #00bdc9 !important;
 }
