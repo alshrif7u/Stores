@@ -58,11 +58,13 @@
 }
 
 .mainfeatures .perfeature {
-    border: 1px solid hsla(0, 0%, 100%, .3);
+    border: 1px solid #00bdc959;
     border-radius: 15px;
     padding: 25px 0;
+    box-shadow: 0 0 7px #0cbdc966;
+    background: #0000003b;
     position: relative;
-    margin: 0 !important;
+    margin: 15px 0 !important;
     z-index: 1;
 }
 
@@ -320,4 +322,10 @@ display: none;
   align-self: flex-start; 
   width: 100%;
   text-align: center; 
+}
+
+.mainproducts .mainvotes .rvotes .pervote {
+    position: relative;
+    background-color: #00bdc936;
+    box-shadow: 0 0 30px #0000005c;
 }
