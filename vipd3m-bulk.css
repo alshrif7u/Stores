@@ -329,3 +329,159 @@ display: none;
     background-color: #00bdc936;
     box-shadow: 0 0 30px #0000005c;
 }
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 90%!important;
+    margin: 0 auto;
+    border-radius: 2.5rem
+}
+
+
+.content.mainshowproduct .rshowcon .right .name {text-transform: uppercase;background-image: linear-gradient(-225deg, #ED639E 0%, #134982 29%, #00bdc9 67%, #D14985 100%);background-size: 200% auto;background-clip: text;text-fill-color: transparent;-webkit-background-clip: text;-webkit-text-fill-color: transparent;animation: textclip 4s linear infinite;font-weight: 700;font-size: 1.8rem !important;}
+
+.content.mainshowproduct .rshowcon .right .price {
+    font-weight: 700;
+    text-align: center;
+}
+.content.mainshowproduct .rshowcon .right .rating {
+    display: none;
+}
+.content.mainshowproduct .rshowcon .right .rating .count {
+    color: var(--white)!important
+}
+
+.content.mainshowproduct .sec2 .tabs .pertab {
+    color: var(--white)!important
+}
+
+.descr {
+    color: var(--white) !important;
+    border: 1px solid #ffffff21;
+    padding: 1em;
+    background: #0000003b;
+    border-radius: 15px;
+}
+
+.mainproducts .perproduct {
+    border: solid 2px var(--color-border)!important;
+    background-color: transparent;
+    border-radius: 15px
+}
+
+.mainproducts .perproduct .details .pname {
+    font-size: 1rem;
+    line-height: 3em;
+    color: white;
+    padding: 0 0.5em;
+    font-weight: 600;
+}
+
+.mainproducts .perproduct .details {text-align: center;background: #0000003b;      padding: 0;  border-radius: 0 0 1rem 1rem;}
+
+.mainproducts .perproduct .details .psubname {
+    display: none;
+}
+
+.mainproducts .perproduct .details .btns {
+    justify-content: center !important;
+    background: #ffffff0f;
+}
+
+.mainproducts .perproduct .details .btns .perbtn {
+    color: #FEE62C !important;
+}
+
+.mainproducts .mainbanner a {
+    padding: 1.5em;
+    border: 1px solid hsla(0, 0%, 100%, .3) !important;
+    border-radius: 1.5em;
+}
+
+.footer .perrow.row1 .text,.footer .perrow .title {
+    color: white;
+    font-weight: 700;
+}
+
+.mainproducts .perproduct .img {
+    padding-top: 1rem;
+	position: relative;
+}
+
+.mainproducts .perproduct .oldprice {
+    color: #000;
+}
+
+.mainproducts .perproduct .mainprice {
+    display: block;
+}
+
+@media (min-width: 320px) and (max-width:520px) {
+    .mainproducts .smallBanners {
+        padding-left:4px;
+        padding-right: 1px;
+    }
+}
+
+.rcon {
+    background-color: #363636
+}
+
+.pname {
+    font-size: 22px;
+    color: white
+}
+
+.footer {
+    background: #0000003b;
+    border-top: 2px solid #d14985
+}
+
+.footer .perrow .paymentMethodsCon .perpayment {
+    width: 80px;
+    padding: 0 10px
+}
+.mainproducts .perproduct .details .buycount {
+    display: none;
+}
+@media (min-width: 401px) and (max-width: 520px) {
+  .mainproducts .perproduct .details .btns {
+    padding: 8px;
+    justify-content: center;
+  }
+}
+
+.content.mainshowproduct .rshowcon .right .addtocartcon {direction: rtl;}
+.content.mainshowproduct .rshowcon .right .addtocartcon .addtocartbtn {
+    padding: 16px 35px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-left: 11px;
+    text-align: center;
+}
+
+#raddtocartbtn {
+  border-radius: 5px;
+  width: 70%;
+  margin-left: 11px;
+}
+
+.content.mainshowproduct .rshowcon .right .addtocartcon .counter {
+    width: 30%;
+    background-color: transparent;
+}
+@media (max-width: 768px) {
+  #raddtocartbtn,
+  .content.mainshowproduct .rshowcon .right .addtocartcon .counter,
+  .content.mainshowproduct .rshowcon .right .addtocartcon .addtocartbtn {
+    width: 82%; 
+  }
+
+  .addtocartcon {
+    flex-direction: column;
+  }
+}
+.content.mainshowproduct .rshowcon .right .subname {
+    color: #B3B3B3;
+    font-size: 15px;
+}
