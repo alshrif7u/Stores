@@ -479,3 +479,107 @@ display: none;
     color: #B3B3B3;
     font-size: 15px;
 }
+
+.footer .perrow .paymentMethodsCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.footer.verticalFooterPattern .perrow .paymentMethodsCon {
+  margin-top: 20px;
+}
+
+.footer.centeredHorizontalFooterPattern .perrow .paymentMethodsCon {
+  width: 300px;
+}
+
+@media (min-width: 250px) and (max-width: 340px) {
+  .footer.verticalFooterPattern .perrow .paymentMethodsCon,
+  .footer.centeredHorizontalFooterPattern .perrow .paymentMethodsCon,
+  .footer.defaultPattern .perrow .paymentMethodsCon {
+    width: 250px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 999px) {
+  .footer.centeredHorizontalFooterPattern .perrow .paymentMethodsCon {
+    width: 450px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1299px) {
+  .footer.centeredHorizontalFooterPattern .perrow .paymentMethodsCon {
+    width: 280px;
+  }
+}
+
+.footer .perrow .paymentMethodsCon .perpayment {
+  margin: 3px;
+  margin-bottom: 0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.75rem;
+  width: 4rem;
+}
+
+.footer.centeredHorizontalFooterPattern .perrow .paymentMethodsCon .perpayment {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 3px 5px;
+  box-sizing: border-box;
+}
+
+.footer .perrow .paymentMethodsCon .perpayment img {
+  width: 45px;
+}
+
+@media (max-width: 768px) {
+    .footer .perrow .paymentMethodsCon {
+        width: 100%;
+        padding: 10px 0;
+        background-color: transparent;
+    }
+}
+.footer .btmsocial {
+    margin: 0;
+    justify-content: center;
+    padding: 1em 0;
+    background-color: #0000004f;
+}
+.footer .btmsocial a {
+    margin-right: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 1000px) and (max-width: 1150px) {
+    .footer .rowcon {
+        flex-direction: row;
+        padding: 50px 20px 0;
+    }
+}
+@media (min-width: 1301px) and (max-width: 1500px) {
+    .footer .rowcon {
+        flex-direction: row;
+        padding: 50px 20px 0;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 999px) {
+    .footer .rowcon {
+        flex-direction: row;
+        padding: 50px 20px 0;
+    }
+}
